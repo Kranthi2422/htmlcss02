@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+body {
+  background-image: url(./pexels-maxyne-barcel.png),
+    linear-gradient(rgb(4 1 54 / 74%), rgb(0 0 0 /74%));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 97vh;
+  overflow: hidden;
+}
+
+.nav__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 4rem;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+  width: 130%;
+  color: rgb(255, 213, 0);
+  list-style: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button {
+  background: transparent;
+  background-color: rgb(255, 49, 83);
+  padding: 1rem 2rem;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button__small {
+  padding: 0.8rem 2rem;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero__heading {
+  color: rgb(255, 213, 0);
+  font-size: 150px;
+  line-height: 1;
+  text-align: center;
+  margin: 5rem 7rem 2rem;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
